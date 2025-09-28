@@ -1,4 +1,4 @@
-/* styles.css - Starter CSS for css_advanced project */
+/* styles.css - Updated for css_advanced project */
 
 /* Reset some default browser styles */
 * {
@@ -11,68 +11,83 @@
 body {
   font-family: 'Source Sans Pro', Arial, sans-serif;
   line-height: 1.5;
-  color: #333;
-  background-color: #fff;
+  color: #fff;
+  background-color: #071629;
 }
 
-/* Navigation bar */
-header nav {
+/* Header */
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 30px;
-  background-color: #f8f8f8;
-  border-bottom: 1px solid #ddd;
+  padding: 20px 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
-header nav img {
-  height: 50px;
+header img {
+  height: 40px;
 }
 
-header nav ul {
+header ul {
   list-style: none;
   display: flex;
-  gap: 20px;
+  gap: 40px;
 }
 
-header nav ul li a {
+header ul li a {
   text-decoration: none;
-  color: #333;
-  font-weight: bold;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
 }
 
-/* Hero section */
+/* Hero / Banner section */
 main section:first-of-type {
+  background: url("./images/banner.png") no-repeat center center/cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding: 50px 20px;
+  padding-top: 100px;
 }
 
 main section:first-of-type h1 {
-  font-size: 3rem;
-  margin-bottom: 10px;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
 }
 
 main section:first-of-type span {
   margin: 0 10px;
-  font-size: 1.2rem;
-  color: #555;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 main section:first-of-type button {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-weight: bold;
-  background-color: #0073e6;
-  color: #fff;
+  margin-top: 30px;
+  padding: 15px 40px;
+  background-color: #C271FF;
   border: none;
+  border-radius: 25px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
   cursor: pointer;
-  border-radius: 4px;
+  transition: background 0.3s ease;
+}
+
+main section:first-of-type button:hover {
+  background-color: #a94dff;
 }
 
 /* Footer */
 footer {
-  background-color: #f8f8f8;
+  background-color: #071629;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
@@ -85,6 +100,6 @@ footer img {
 
 footer i {
   margin: 0 10px;
-  color: #333;
+  color: #fff;
   font-size: 1.5rem;
 }
