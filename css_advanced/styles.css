@@ -103,3 +103,44 @@ footer i {
   color: #fff;
   font-size: 1.5rem;
 }
+/* Quote Section */
+.quote {
+  background-color: #C271FF; /* purple background from Figma */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.quote-container img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.quote blockquote {
+  text-align: left;
+}
+
+.quote blockquote p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.quote blockquote h3 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.quote blockquote span {
+  font-style: italic;
+  font-size: 0.9rem;
+}
