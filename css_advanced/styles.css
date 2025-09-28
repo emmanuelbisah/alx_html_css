@@ -1,0 +1,90 @@
+/* styles.css - Starter CSS for css_advanced project */
+
+/* Reset some default browser styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* General body styling */
+body {
+  font-family: 'Source Sans Pro', Arial, sans-serif;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+}
+
+/* Navigation bar */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ddd;
+}
+
+header nav img {
+  height: 50px;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero section */
+main section:first-of-type {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+main section:first-of-type h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+main section:first-of-type span {
+  margin: 0 10px;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+main section:first-of-type button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Footer */
+footer {
+  background-color: #f8f8f8;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+footer img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+footer i {
+  margin: 0 10px;
+  color: #333;
+  font-size: 1.5rem;
+}
